@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+/*END OF CSS RESET*/
+
+/*********************************************************/
+
+/*NAV*/
+
+nav {
+    background-color: rgb(26, 37, 47);
+    display: flex;
+    height: 10vh;
+
+
+}
+
+nav h3 {
+    color: rgb(255, 255, 255);
+    font-family: bold;
+    padding: 0 100px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 500px;
+}
+
+nav ul {
+    margin-top: 20px;
+    display: flex;
+    right: 100px;
+
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: regular;
+}
+
+nav ul li a:hover {
+    color: rgb(26, 188, 156);
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/*NAV-END*/
+
+/*********************************************************/
+
+/*HERO SECTION*/
+
+#hero {
+    background-color: rgb(26, 188, 156);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 100vh;
+
+}
+
+#hero .banner {
+    margin-top: 100px;
+
+}
+
+#hero .h-inner h1 {
+    font-size: 50px;
+    font-family: bold;
+    margin-top: 50px;
+
+
+}
+
+#hero .h-inner img {
+    width: 20%;
+    margin: 20px 0;
+}
+
+#hero .h-inner p {
+    font-family: regular;
+    font-size: 20px;
+}
+
+/*HERO SECTION-END*/
+
+/*********************************************************/
+
+/*PORTFOLIO-SECTION*/
+#portfolio {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 90px;
+    height: 100vh;
+}
+
+
+#portfolio h1 {
+    font-size: 40px;
+    font-family: bold;
+    color: rgb(44, 62, 80);
+}
+
+#portfolio img {
+    width: 20%;
+    margin: 20px 0;
+
+}
+
+#portfolio .p-inner {
+    height: 30vh;
+    margin-left: 200px;
+    display: flex;
+    width: calc(100/3);
+    margin-bottom: 25px;
+}
+
+
+#portfolio .p-inner img {
+    width: 300px;
+    height: 210px;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+}
+
+#portfolio .p-inner .cover .bg:hover {
+    background-color: rgba(26, 188, 156, 0.61);
+
+}
+
+
+
+/*PORTFOLIO-SECTION-END*/
+
+/*********************************************************/
+
+/*ABOUT-SECTION*/
+#about {
+
+    background-color: rgb(26, 188, 156);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 60vh;
+}
+
+#about h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    font-family: bold;
+    font-size: 40px;
+
+}
+
+#about img {
+    width: 20%;
+
+}
+
+.a-inner {
+    display: flex;
+    text-align: left;
+    padding-left: 360px;
+    margin-right: 300px;
+    font-size: 17px;
+    font-family: regular;
+
+}
+
+.a-inner p {
+    margin-right: 30px;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    background-color: rgb(26, 188, 156);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#about button:hover{
+    border-width: 3px;
+    cursor: pointer;
+}
+
+
+/*ABOUT-SECTION-END*/
+
+/*********************************************************/
+
+/*CONTACT-SECTION*/
+
+#contact {
+    height: 80vh;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: bold;
+    color: rgb(44, 62, 80);
+}
+
+#contact img {
+    width: 20%;
+}
+
+#contact form {
+    margin-bottom: 100px;
+}
+
+#contact form input {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom-width: .25px;
+    border-color: rgba(0, 0, 0, 0.274);
+    font-family: regular;
+    font-size: 18px;
+    width: 50%;
+    padding: 25px 0;
+}
+
+
+
+#contact button {
+    background-color: rgb(26, 188, 156);
+    color: rgb(255, 255, 255);
+    margin-right: 590px;
+    margin-bottom: 200px;
+    font-size: bold;
+
+}
+
+#contact button:hover{
+  background-color: rgb(44, 62, 80);
+}
+
+
+/*CONTACT--SECTION-END*/
+
+/*********************************************************/
+
+/*FOOTER*/
+footer {
+    margin-top: 100px;
+    padding-top: 50px;
+    height: 30vh;
+    text-align: center;
+    font-family: regular;
+    background-color: rgb(44, 62, 80);
+}
+
+footer .f-inner {
+
+    display: flex;
+    color: rgb(255, 255, 255);
+    height: 30vh;
+    justify-content: center;
+}
+
+footer .inner {
+    width: 25%;
+}
+
+.inner p span {
+    color: rgb(26, 188, 156);
+
+}
+
+
+footer h3 {
+    margin-top: 50x;
+    margin-bottom: 10px;
+    font-family: bold;
+
+}
+
+footer img {
+    margin-top: 10px;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-radius: 50%;
+    border-style: solid;
+    width: 18px;
+    padding: 10px;
+}
+
+.copyright {
+    padding-top: 30px;
+    height: 7vh;
+    background-color: rgb(26, 37, 47);
+}
+
+.copyright p {
+
+    color: rgb(255, 255, 255);
+}
+
+/*FOOTER-END*/
